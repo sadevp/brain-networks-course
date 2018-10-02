@@ -218,7 +218,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       vb.customize ["modifyvm", :id, "--nictype1", "virtio"]
       vb.customize ["modifyvm", :id, "--vram", "64"]
       vb.gui = true
-      vb.name = "brain-networks-course"
+      vb.name = "brain-networks-course2"
 
       if Vagrant.has_plugin?("vagrant-cachier")
         # Configure cached packages to be shared between instances of the same base box.
